@@ -1,2 +1,3 @@
 # Server to End All Servers
-Comprehensive list of all the shit I'm throwing in a web server.
+Comprehensive list of all the stuff for my server.  
+For my dev portfolio.. or something..
