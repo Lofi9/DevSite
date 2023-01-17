@@ -4,9 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Homepage</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #aaa;
+        }
+
+        .bar {
+            height: 75px;
+            background-color: white;
+            padding: 10px;
+        }
+        .bio {
+            margin-top: 20px;
+            display: flex;
+            margin-left: 5px;
+            margin-right: 12px;
+            padding: 10px;
+            width: 1500px;
+            height: 600px;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+        }
+
+        .column {
+            float: left;
+            width: 600px;
+            margin: 15px;
+            padding: 5px;
+            height: 300px;
+            text-align: left;
+        }
+        .row {
+            content: "";
+            display: flex;
+            clear: both;
+            justify-content: center;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="bar">
+        <div class="logo">
+            <!-- something something put logo here eventually -->
+        </div>
+    </div>
+    <div class="bio">
+        <article style="width: 60%; background-color: red; height: 500px;">
+            <h1>idk what to put here</h1>
+        </article>
+        <article style="width: 40%;">
+            <h1>Thingy up here be the bio information</h1>
+        </article>
+        </div>
+    </div>
+    <h3></h3>
+    <div class="row">
+        <article class="column">
+            <h1>Mochidev Homepage</h1>
+            <h3>HTML | CSS | Ruby</h3>
+            <p>Making the start of the dev portfolio</p>
+        </article>
+        <article class="column">
+            <h1>Previous Project</h1>
+            <h2>Whatever language it's in</h2>
+            <p>variable information</p>
+        </article>
+    </div>
 </body>
 </html>
