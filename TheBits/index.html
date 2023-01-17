@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <!--
+        Colour Palette from https://coolors.co/
+        #F7C59F Peach Crayola
+        #2a324b Space Cadet
+        #767B91 Rythm
+        #C7CCDB Light Periwinkle
+        #E1E5EE Alice Blue
+    -->
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,25 +21,26 @@
             box-sizing: border-box;
         }
         body {
-            background-color: #aaa;
+            background-color: #2a324b;
         }
 
         .bar {
             height: 75px;
-            background-color: white;
+            background-color: #E1E5EE;
             padding: 10px;
         }
         .bio {
             margin-top: 20px;
             display: flex;
-            margin-left: 5px;
-            margin-right: 12px;
             padding: 10px;
-            width: 1500px;
+            width: 100%;
             height: 600px;
             justify-content: center;
             align-items: center;
-            background-color: white;
+        }
+        .bio_column {
+            height: 500px;
+            margin: 15px;
         }
 
         .column {
@@ -39,6 +50,7 @@
             padding: 5px;
             height: 300px;
             text-align: left;
+            text-decoration: #767B91;
         }
         .row {
             content: "";
@@ -55,10 +67,10 @@
         </div>
     </div>
     <div class="bio">
-        <article style="width: 60%; background-color: red; height: 500px;">
+        <article class="bio_column" style="width: 60%;">
             <h1>idk what to put here</h1>
         </article>
-        <article style="width: 40%;">
+        <article class="bio_column" style="width: 40%;">
             <h1>Thingy up here be the bio information</h1>
         </article>
         </div>
